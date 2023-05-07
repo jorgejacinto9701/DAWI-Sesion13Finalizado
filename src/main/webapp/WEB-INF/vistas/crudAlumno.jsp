@@ -83,30 +83,34 @@
 		                            <div id="stepOne" class="panel-collapse collapse in">
 		                                <div class="panel-body">
 		                                	<div class="form-group">
-			                                       <label class="col-lg-1 control-label" for="id_reg_nombre" style="text-align: left;">Nombre</label>
-			                                        <div class="col-lg-5">
-														<input class="form-control" id="id_reg_nombre" name="nombre" placeholder="Ingrese el Nombre" type="text" maxlength="20"/>
-			                                        </div>
-			                                        <label class="col-lg-2 control-label" for="id_reg_dni" style="text-align: left;">DNI</label>
-			                                        <div class="col-lg-4">
+		                                		 <label class="col-lg-2 control-label" for="id_reg_nombre" style="text-align: left;">Nombre</label>
+				                                 <div class="col-lg-5">
+													<input class="form-control" id="id_reg_nombre" name="nombre" placeholder="Ingrese el Nombre" type="text" maxlength="20"/>
+				                                 </div>
+				                            </div>
+				                            <div class="form-group">          
+			                                      <label class="col-lg-2 control-label" for="id_reg_dni" style="text-align: left;">DNI</label>
+				                                  <div class="col-lg-4">
 														<input class="form-control" id="id_reg_dni" name="dni" placeholder="Ingrese el DNI" type="text" maxlength="10"/>
-			                                        </div>
-			                                </div>
-		                                    <div class="form-group">
-		                                        <label class="col-lg-1 control-label" for="id_reg_correo" style="text-align: left;">Correo</label>
+				                                  </div>
+				                            </div> 
+			                                <div class="form-group">
+		                                        <label class="col-lg-2 control-label" for="id_reg_correo" style="text-align: left;">Correo</label>
 		                                        <div class="col-lg-5">
 													<input class="form-control" id="id_reg_correo" name="correo" placeholder="Ingrese el correo" type="text" />
 		                                        </div>
+		                                    </div> 
+		                                     <div class="form-group">   
 		                                        <label class="col-lg-2 control-label" for="id_reg_fecha" style="text-align: left;">Fecha Nacimiento</label>
 		                                        <div class="col-lg-4">
 													<input class="form-control" id="id_reg_fecha" name="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento" type="date" />
 		                                        </div>
 		                                    </div> 
 		                                    <div class="form-group">
-		                                    	 <label class="col-lg-1 control-label" for="id_reg_foto" style="text-align: left;">Foto</label>
+		                                    	 <label class="col-lg-2 control-label" for="id_reg_foto" style="text-align: left;">Foto</label>
 		                                   		 <div class="col-lg-5">
 													<input class="form-control" id="id_reg_foto"name="foto" placeholder="Ingrese la foto" type="file"/>
-												</div>	
+												 </div>	
 												 <div class="col-lg-2">								
 													<img id="id_reg_preview" width="210" height="230">
 												 </div>
@@ -153,6 +157,8 @@
 		                                        <div class="col-lg-2">
 		                                           <input class="form-control" id="id_ID" readonly="readonly" name="idAlumno" type="text" maxlength="8"/>
 		                                        </div>
+		                                    </div>
+				                            <div class="form-group">       
 		                                        <label class="col-lg-2 control-label" for="id_act_nombre" style="text-align: left;">Nombre</label>
 		                                        <div class="col-lg-6">
 													<input class="form-control" id="id_act_nombre" name="nombre" placeholder="Ingrese el Nombre" type="text" maxlength="20"/>
@@ -163,26 +169,25 @@
 		                                        <div class="col-lg-4">
 													<input class="form-control" id="id_act_dni" name="dni" placeholder="Ingrese el DNI" type="text" maxlength="10"/>
 		                                        </div>
+		                                    </div>
+				                            <div class="form-group">        
 		                                        <label class="col-lg-2 control-label" for="id_act_correo" style="text-align: left;">Correo</label>
 		                                        <div class="col-lg-4">
 													<input class="form-control" id="id_act_correo" name="correo" placeholder="Ingrese el correo" type="text" />
 		                                        </div>
 		                                    </div>    
-		                                     <div class="form-group">
+		                                    <div class="form-group">
 		                                        <label class="col-lg-2 control-label" for="id_act_fecha" style="text-align: left;" >Fecha Nacimiento</label>
-		                                        <div class="col-lg-4">
+		                                        <div class="col-lg-4">  
 													<input class="form-control" id="id_act_fecha" name="fechaNacimiento" placeholder="Ingrese la fecha de nacimiento" type="date"/>
 		                                        </div>
-		                                        <label class="col-lg-2 control-label" for="id_act_fecha">Foto</label>
-		                                        	 
-		                                        
 		                                    </div> 
 		                                    <div class="form-group">
-		                                    	 <label class="col-lg-1 control-label" for="id_act_foto" style="text-align: left;">Foto</label>
+		                                    	 <label class="col-lg-2 control-label" for="id_act_foto" style="text-align: left;">Foto</label>
 		                                   		 <div class="col-lg-5">
 													<input class="form-control" id="id_act_foto"name="foto" placeholder="Ingrese la foto" type="file"/>
 												</div>	
-												 <div class="col-lg-2">								
+												 <div class="col-lg-2">	  							
 													<img id="id_act_preview" width="210" height="230">
 												 </div>
 												 <div class="col-lg-1"></div>
@@ -190,9 +195,7 @@
 													<img id="id_act_saved" width="210" height="230" >
 												 </div>
 											</div>
-										
-											  
-		                                    <div class="form-group">
+										    <div class="form-group">
 		                                        <div class="col-lg-9 col-lg-offset-3">
 		                                        	<button type="button" class="btn btn-primary" id="id_btn_actualiza">ACTUALIZA</button>
 		                                        </div>
@@ -450,6 +453,11 @@
                         regexp: /^[0-9]{8}$/,
                         message: 'el dni es 8 dígitos'
                     },
+                    remote :{
+                	    delay: 1000,
+                	 	url: 'buscaPorDni',
+                	 	message: 'El dni ya existe'
+                 	}
                 }
             },
             "correo":{
@@ -460,7 +468,12 @@
                     },
                     emailAddress: {
                         message: 'El correo no es valido'
-                    }
+                    },
+                    remote :{
+                	    delay: 1000,
+                	 	url: 'buscaPorCorreo',
+                	 	message: 'El correo ya existe'
+                 	}
                 }
             },
             "fechaNacimiento":{

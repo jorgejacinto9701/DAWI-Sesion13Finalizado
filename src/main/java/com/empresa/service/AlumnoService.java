@@ -14,5 +14,5 @@ public interface AlumnoService {
 	public abstract List<Alumno> listaAlumnoPorNombreLike(String filtro);
 	public abstract List<Alumno> listaPorDni(String dni);
 	public abstract List<Alumno> listaPorDni(String dni, int idAlumno);
-	
+	public abstract List<Alumno> listaPorCorreo(String correo);
 }

@@ -16,4 +16,5 @@ public interface AlumnoRepository extends JpaRepository<Alumno, Integer> {
 
 	public abstract List<Alumno> findByDni(String dni);
 	public abstract List<Alumno> findByDniAndIdAlumnoNot(String dni, int idAlumno);
+	public abstract List<Alumno> findByCorreo(String correo);
 }

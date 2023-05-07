@@ -50,6 +50,11 @@ public class AlumnoServiceImpl implements AlumnoService {
 		return repository.findByDniAndIdAlumnoNot(dni, idAlumno);
 	}
 
+	@Override
+	public List<Alumno> listaPorCorreo(String correo) {
+		return repository.findByCorreo(correo);
+	}
+
 	
 
 }
